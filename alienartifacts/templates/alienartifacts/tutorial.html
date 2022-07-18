@@ -1,0 +1,107 @@
+{% extends "alienartifacts/layout.html" %}
+
+
+{% block body %}
+
+    <script type="text/javascript">
+    var spaceship = {{ spaceship | safe}};
+    var setting = {{ setting | safe}};
+    var reward_probabilities = {{ reward_probabilities }};
+    var valid_keys = {{ valid_keys | safe}};
+    var instruction_stimuli = {{ instruction_stimuli | safe}};
+    var instruction_indx = 0;
+    var n_instructions = 9;
+    var stim_indx = 0;
+    var listening = false;
+    var chose_largest = false;
+    var loop_switch = false;
+    var trial_num = 0;
+    var n_trials = 10;
+    var stimulus_order = new Array();
+    var choice_record = new Array();
+    var n_sessions = 0;
+    var session_max = 2;
+    </script>
+
+    {% load static %}
+    <script src="{% static 'js/tutorial.js' %}"></script>
+
+    <div id="instruction_0" style="display: none;">
+        Let's start by getting familiar with the task. Here's a picture of a spaceship. Try pressing either "v," or "b,"
+        on the keyboard. If you press "v," there's a 90% probability that you'll receive a reward. If you press "b,"
+        there's a 0% probability of reward.
+    </div>
+
+    <div id="instruction_1" style="display: none;">
+        Knowing what the probability was for the last picture of a spaceship, press the
+        key ("v" or "b") that is  most likely to get a reward.
+    </div>
+
+    <div id="instruction_2" style="display: none;">
+        There might be contexts where a different key is rewarded. If  a spaceship has landed on a planet, this time
+        pressing "b," has a 90% reward probability and "v," has a 0% probability. Give it a go!
+    </div>
+
+    <div id="instruction_3" style="display: none;">
+        What key should you press with this example?
+    </div>
+
+    <div id="instruction_4" style="display: none;">
+        Let's move onto a different type of example. If there's no spaceship, "v," has an 80% probability of reward and
+        "b," has a 20% probability of reward. Choose either "v," or "b," and see what happens.
+    </div>
+
+    <div id="instruction_5" style="display: none;">
+        Give it another go.
+    </div>
+
+    <div id="instruction_6" style="display: none;">
+        One more time.
+    </div>
+
+    <div id="instruction_7" style="display: none;">
+        Now you're going to do 10 trials, following the rules you have learned. To move onto the task, you need
+        to select the most-rewarded option on 8/10 trials. Start with the image below.
+    </div>
+
+    <div id="instruction_8" style="display: none;">
+        Congratulations! You're onto the real task, getting money out of alien artifacts. You will be paid based on
+        your performance, so do the best you can!
+    </div>
+
+    <div id="feedback_incorrect" style="display: none;">
+        Nothing happens. Bummer
+        <img id="nonrewarded_stim" src="{{ reward_stim_urls.1 }}" style="display: none;" class="center">
+    </div>
+
+
+
+    <div id="feedback_correct" style="display: none;">
+        Rewarded! The power is growing...
+        <img id="rewarded_stim" src="{{ reward_stim_urls.0 }}" style="display: none;" class="center">
+    </div>
+
+
+    <div id="reminder" style="display: none;">
+
+    </div>
+
+    <div id="not_good_enough" style="display: none;">
+        Looks like you didn't quite hit 8/10. You get one more shot before being sent back home.
+    </div>
+
+    <div id="goodbye" style="display: none;">
+        Unfortunately, looks like you're having trouble learning the task. Space just isn't for you. Even so, we'll give
+        you a reward for trying. Back where you came from, enter the payment token: {{ payment_token }}
+    </div>
+
+    <a id="to-task" href="{% url task_link %}" style="display: none;">To the artifacts!</a>
+
+    <div id="image_shown">
+    {% for url in stimulus_urls %}
+        <img id="stimulus_{{ forloop.counter0 }}" alt="stimulus_{{ forloop.counter0 }}" src="{{ url }}" style="display: none;" class="center">
+    {% endfor %}
+    </div>
+
+
+{% endblock %}

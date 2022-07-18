@@ -1,0 +1,32 @@
+{% extends "alienartifacts/layout.html" %}
+
+{% block body %}
+    <h1>Questions! </h1>
+
+    <div>
+    Please answer the following questions. Make sure to read them carefully, as several are designed to see if you're
+        paying attention. There are a lot of questions, and some may feel personal. Keep in mind that all answers are
+        confidential. Furthermore, the intention of our research is to help people. The more honest you are in each
+        question, the higher the quality of our findings. Let's do this together!
+     <br>
+    <br>
+    <em> ***questions referring to casual interaction with acquaintances, rather than special
+        relationships such as with close friends and family members.</em>
+    </div>
+
+    <form action="{% url 'alienartifacts:questionnaires' %}" method="post" class="pure-form pure-form-aligned form_style">
+        {% csrf_token %}
+
+        {{ form_substance.as_ul }}
+
+        {{ formset.as_ul }}
+
+        {{ form_att_check.as_ul }}
+
+        {{ form_mh.as_ul }}
+
+        <input type="submit" name="Submit">
+    </form>
+
+
+{% endblock %}

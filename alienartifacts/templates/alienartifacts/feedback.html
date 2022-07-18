@@ -1,0 +1,22 @@
+{% extends "alienartifacts/layout.html" %}
+
+{% block body %}
+    <script>
+
+    {#document.addEventListener('DOMContentLoaded', function () {#}
+    function newTrial() {
+        window.location.href= '/task';
+    }
+    {# });#}
+
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(newTrial, 2000)
+    });
+    </script>
+
+    <h1>{{ response }}</h1>
+    <body>
+
+    </body>
+
+{% endblock %}

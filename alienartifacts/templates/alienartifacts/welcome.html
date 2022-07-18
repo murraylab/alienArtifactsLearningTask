@@ -1,0 +1,32 @@
+{% extends "alienartifacts/layout.html" %}
+
+{% block body %}
+    <h1>Welcome to the Alien Artifacts game!</h1>
+
+    <div>
+{#    Please enter your identification number, select where you are coming from and #}
+{#        <p></p>#}
+{#    <b> To receive payment, you must <u>paste or type ID</u> below. </b>#}
+        <p>
+        <u>If you are coming from Prolific, please double check that the ID you provide matches the one on the Prolific
+            launch page. </u>There have been instances of autofill putting in the wrong ID, which makes issuing payment
+            difficult. <u>We want to give you money.</u> To do that, we must be able to match your anonymous Prolific ID
+            with results from the game.
+        </p>
+    </div>
+
+    <form action="{% url 'alienartifacts:welcome' %}" method="post" class="pure-form pure-form-aligned">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        {% if recaptcha.bool %}
+            <div class="center_captcha">
+            <script src={{ recaptcha.src }}></script>
+            <div class="g-recaptcha" data-sitekey={{ recaptcha.site_key }}></div>
+            </div>
+        {% endif %}
+
+        <input type="submit" name="Submit">
+    </form>
+
+{% endblock %}

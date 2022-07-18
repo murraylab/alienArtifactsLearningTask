@@ -1,0 +1,67 @@
+{% extends "alienartifacts/layout.html" %}
+
+
+{% block body %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    {{ valid_keys|json_script:"valid_keys" }}
+    <script type="text/javascript">
+        var valid_keys = JSON.parse(document.getElementById('valid_keys').textContent);
+    </script>
+
+    <script type="text/javascript">
+    var updateurl = "{% url 'alienartifacts:onepagecontextgenupdate' %}";
+    {#var goodbyeurl = "{% url 'alienartifacts:goodbye' %}";#}
+    var goodbyeurl = "{% url 'alienartifacts:onepagecontextgentask' %}";
+    var block_trial_number = 0;
+    var stimuli = {{ stimuli }};
+    var responses = new Array();
+    var hues = {{ obscured | safe }};
+    var start_times = new Array();
+    var end_times = new Array();
+    var total_possible = 0;
+    var block_possible = 0;
+    var total_earned = 0;
+    var block_earned = 0;
+    var listening = false;
+    var last = false;
+
+    </script>
+
+
+    {% load static %}
+    <script src="{% static 'js/onepagecontextgentask.js' %}"></script>
+
+    <h2 id="instructions" style="display: none;">
+    {{ response_text }}
+    </h2>
+
+    <div id="planet_intro">
+    {{ planet_intro }}
+    </div>
+
+    <div id="image_shown">
+    {% for url in stimulus_urls %}
+        <img id="stimulus_{{ forloop.counter0 }}" alt="stimulus_{{ forloop.counter0 }}" src="{{ url }}" style="display: none;" class="center">
+    {% endfor %}
+    </div>
+
+
+    <div id="feedback_correct" style="display: none;">
+        Rewarded! The power is growing...
+        <img id="rewarded_stim" src="{{ reward_stim_urls.0 }}" style="display: none;" class="center">
+    </div>
+
+
+    <div id="feedback_incorrect" style="display: none;">
+        Nothing happens. Bummer
+        <img id="nonrewarded_stim" src="{{ reward_stim_urls.1 }}" style="display: none;" class="center">
+    </div>
+
+
+    <div id="results_summary">
+
+    </div>
+
+
+{% endblock %}

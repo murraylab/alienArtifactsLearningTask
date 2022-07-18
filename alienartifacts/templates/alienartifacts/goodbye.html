@@ -1,0 +1,15 @@
+{% extends "alienartifacts/layout.html" %}
+
+{% block body %}
+
+    <div id="exit_message">
+        {{ message }}
+    </div>
+
+    <form action="{% url 'alienartifacts:goodbye' %}" method="post" class="pure-form pure-form-aligned">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" name="Submit" value="Submit">
+    </form>
+
+{% endblock %}

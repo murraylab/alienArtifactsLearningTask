@@ -1,0 +1,67 @@
+body {
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+div {
+    color: whitesmoke;
+    font-size: larger;
+    padding-bottom: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: large;
+}
+
+img {
+    width: 250px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center_captcha {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+a:link {
+    color: limegreen;
+    font-size: x-large;
+}
+
+a:visited {
+    color: darkred;
+    font-size: x-large;
+}
+
+.custom-radio-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form_style {
+    background: black;
+    color: whitesmoke;
+    text-align: left;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 50px;
+}

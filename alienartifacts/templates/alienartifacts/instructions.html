@@ -1,0 +1,12 @@
+{% extends "alienartifacts/layout.html" %}
+
+{% block body %}
+
+    <div id="instructions">
+        {{ instructions }}
+    </div>
+{#    <a href="{% url 'alienartifacts:task' %}">Get Going!</a>#}
+{#    <a id="to-task" href="{% url 'alienartifacts:onepagetask' %}">To the artifacts!</a>#}
+    <a id="to-task" href="{% url link_url %}">Complete the tutorial</a>
+
+{% endblock %}

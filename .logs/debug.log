@@ -1,0 +1,379 @@
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO "GET /static/style.css HTTP/1.1" 200 909
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 5534
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['orange'], 'shape': ['circle', 'hexagon', 'square', 'circle', 'x'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'v': 1.0, 'n': 0.0, 'c': 0.0, 'b': 0.0}}, 'rule_2': {'attributes': {'color': ['blue', 'magenta', 'purple', 'yellow'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'v': 0.0, 'n': 1.0, 'c': 0.0, 'b': 0.0}}, 'rule_3': {'attributes': {'color': ['orange'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'v': 1.0, 'n': 1.0, 'c': 0.0, 'b': 0.0}}, 'default': {'attributes': {'color': 'default', 'shape': 'default', 'texture': 'default', 'size': 'default'}, 'reward_probabilities': {'v': 0.0, 'n': 0.0, 'c': 1.0, 'b': 0.0}}}
+INFO valid_keys = [['v', 'n', 'c', 'b'], ['v', 'n', 'c', 'b']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['v', 'n', 'c', 'b']}
+INFO In instructions function
+INFO "POST /welcome HTTP/1.1" 200 659
+INFO "GET /onepageexamplegentask HTTP/1.1" 200 6199
+INFO "GET /static/js/onepagetask.js HTTP/1.1" 200 5295
+INFO "GET /media/images/circle_blue_dots_large_qAs3Div.png HTTP/1.1" 200 8748
+INFO "GET /media/images/circle_orange_dots_large_zuBmeXM.png HTTP/1.1" 200 8615
+INFO "GET /media/images/star_magenta_dots_large_wnZyrIa.png HTTP/1.1" 200 7322
+INFO "GET /media/images/square_orange_dots_large_fY0qlXF.png HTTP/1.1" 200 5687
+INFO "GET /media/images/square_blue_dots_large_AdwsdCg.png HTTP/1.1" 200 5258
+INFO "GET /media/images/star_blue_dots_large_gQwya3L.png HTTP/1.1" 200 7314
+INFO "GET /media/images/square_magenta_dots_large_Q19EooG.png HTTP/1.1" 200 5475
+INFO "GET /media/images/circle_magenta_dots_large_DLbQyJ3.png HTTP/1.1" 200 8705
+INFO "GET /media/images/circle_blue_diagonal_large_OFHxtoB.png HTTP/1.1" 200 13646
+INFO "GET /media/images/star_magenta_diagonal_large_OepDxkP.png HTTP/1.1" 200 10899
+INFO "GET /media/images/circle_orange_diagonal_large_MisH4UQ.png HTTP/1.1" 200 12873
+INFO "GET /media/images/square_orange_diagonal_large_01sr7j3.png HTTP/1.1" 200 10273
+INFO "GET /media/images/star_blue_diagonal_large_GQuQ7C8.png HTTP/1.1" 200 10733
+INFO "GET /media/images/square_blue_diagonal_large_mvyRp1L.png HTTP/1.1" 200 10526
+INFO "GET /media/images/circle_magenta_diagonal_large_hG0HgAu.png HTTP/1.1" 200 12305
+INFO "GET /media/images/square_magenta_diagonal_large_gaDawUB.png HTTP/1.1" 200 9485
+INFO "GET /media/images/noreward_diamond_reward_stim_CsxQPcS.png HTTP/1.1" 200 31960
+INFO "GET /media/images/reward_diamond_reward_stim_0tvgk5f.png HTTP/1.1" 200 1284663
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+ERROR Something went wrong in the consentform view function
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view alienartifacts.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR "GET / HTTP/1.1" 500 64372
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+ERROR Something went wrong in the index function
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view alienartifacts.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR "GET / HTTP/1.1" 500 64372
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO "GET / HTTP/1.1" 200 5360
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO /Users/wpettine/Dropbox/_Murray/Project/state_creation_RL/Paper/code/repos/alienArtifactsLearningTask/alienartifacts/global_variables.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['orange'], 'shape': ['circle', 'hexagon', 'square', 'circle', 'x'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'v': 1.0, 'c': 0.0, 'n': 0.0, 'b': 0.0}}, 'rule_2': {'attributes': {'color': ['blue', 'magenta', 'purple', 'yellow'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'v': 0.0, 'c': 1.0, 'n': 0.0, 'b': 0.0}}, 'rule_3': {'attributes': {'color': ['orange'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'v': 1.0, 'c': 1.0, 'n': 0.0, 'b': 0.0}}, 'default': {'attributes': {'color': 'default', 'shape': 'default', 'texture': 'default', 'size': 'default'}, 'reward_probabilities': {'v': 0.0, 'c': 0.0, 'n': 1.0, 'b': 0.0}}}
+INFO valid_keys = [['v', 'c', 'n', 'b'], ['v', 'c', 'n', 'b']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['v', 'c', 'n', 'b']}
+INFO In instructions function
+INFO "POST /welcome HTTP/1.1" 200 659
+INFO "GET /onepageexamplegentask HTTP/1.1" 200 6199
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['orange'], 'shape': ['circle', 'hexagon', 'square', 'circle', 'x'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'n': 1.0, 'b': 0.0, 'v': 0.0, 'c': 0.0}}, 'rule_2': {'attributes': {'color': ['blue', 'magenta', 'purple', 'yellow'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'n': 0.0, 'b': 1.0, 'v': 0.0, 'c': 0.0}}, 'rule_3': {'attributes': {'color': ['orange'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'n': 1.0, 'b': 1.0, 'v': 0.0, 'c': 0.0}}, 'default': {'attributes': {'color': 'default', 'shape': 'default', 'texture': 'default', 'size': 'default'}, 'reward_probabilities': {'n': 0.0, 'b': 0.0, 'v': 1.0, 'c': 0.0}}}
+INFO valid_keys = [['n', 'b', 'v', 'c'], ['n', 'b', 'v', 'c']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['n', 'b', 'v', 'c']}
+INFO In instructions function
+INFO "POST /welcome HTTP/1.1" 200 659
+INFO "GET /onepageexamplegentask HTTP/1.1" 200 6199
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['orange'], 'shape': ['circle', 'hexagon', 'square', 'circle', 'x'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'v': 1.0, 'b': 0.0, 'n': 0.0, 'c': 0.0}}, 'rule_2': {'attributes': {'color': ['blue', 'magenta', 'purple', 'yellow'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'v': 0.0, 'b': 1.0, 'n': 0.0, 'c': 0.0}}, 'rule_3': {'attributes': {'color': ['orange'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'v': 1.0, 'b': 1.0, 'n': 0.0, 'c': 0.0}}, 'default': {'attributes': {'color': 'default', 'shape': 'default', 'texture': 'default', 'size': 'default'}, 'reward_probabilities': {'v': 0.0, 'b': 0.0, 'n': 1.0, 'c': 0.0}}}
+INFO valid_keys = [['v', 'b', 'n', 'c'], ['v', 'b', 'n', 'c']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['v', 'b', 'n', 'c']}
+INFO In questionnaires function
+ERROR Something went wrong in the welcome function
+ERROR Internal Server Error: /welcome
+Traceback (most recent call last):
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view alienartifacts.views.welcome didn't return an HttpResponse object. It returned None instead.
+ERROR "POST /welcome HTTP/1.1" 500 68392
+INFO Watching for file changes with StatReloader
+ERROR Something went wrong in the consentform view function
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view alienartifacts.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR "GET / HTTP/1.1" 500 66522
+INFO Watching for file changes with StatReloader
+ERROR Something went wrong in the consentform view function
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view alienartifacts.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR "GET / HTTP/1.1" 500 66522
+INFO Watching for file changes with StatReloader
+ERROR Something went wrong in the consentform view function
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view alienartifacts.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR "GET / HTTP/1.1" 500 66659
+INFO Watching for file changes with StatReloader
+ERROR Something went wrong in the consentform view function
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view alienartifacts.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR "GET / HTTP/1.1" 500 66659
+INFO Watching for file changes with StatReloader
+ERROR Something went wrong in the consentform view function
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view alienartifacts.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR "GET / HTTP/1.1" 500 66659
+ERROR Something went wrong in the consentform view function
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view alienartifacts.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR "GET / HTTP/1.1" 500 66659
+ERROR Something went wrong in the consentform view function
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view alienartifacts.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR "GET / HTTP/1.1" 500 66659
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO Watching for file changes with StatReloader
+ERROR Something went wrong in the consentform view function
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view alienartifacts.views.index didn't return an HttpResponse object. It returned None instead.
+ERROR "GET / HTTP/1.1" 500 66659
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['orange'], 'shape': ['circle', 'hexagon', 'square', 'circle', 'x'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'c': 1.0, 'n': 0.0, 'b': 0.0, 'v': 0.0}}, 'rule_2': {'attributes': {'color': ['blue', 'magenta', 'purple', 'yellow'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'c': 0.0, 'n': 1.0, 'b': 0.0, 'v': 0.0}}, 'rule_3': {'attributes': {'color': ['orange'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'c': 1.0, 'n': 1.0, 'b': 0.0, 'v': 0.0}}, 'default': {'attributes': {'color': 'default', 'shape': 'default', 'texture': 'default', 'size': 'default'}, 'reward_probabilities': {'c': 0.0, 'n': 0.0, 'b': 1.0, 'v': 0.0}}}
+INFO valid_keys = [['c', 'n', 'b', 'v'], ['c', 'n', 'b', 'v']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['c', 'n', 'b', 'v']}
+INFO In questionnaires function
+INFO "POST /welcome HTTP/1.1" 200 9803
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['orange'], 'shape': ['circle', 'hexagon', 'square', 'circle', 'x'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'c': 1.0, 'b': 0.0, 'v': 0.0, 'n': 0.0}}, 'rule_2': {'attributes': {'color': ['blue', 'magenta', 'purple', 'yellow'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'c': 0.0, 'b': 1.0, 'v': 0.0, 'n': 0.0}}, 'rule_3': {'attributes': {'color': ['orange'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'c': 1.0, 'b': 1.0, 'v': 0.0, 'n': 0.0}}, 'default': {'attributes': {'color': 'default', 'shape': 'default', 'texture': 'default', 'size': 'default'}, 'reward_probabilities': {'c': 0.0, 'b': 0.0, 'v': 1.0, 'n': 0.0}}}
+INFO valid_keys = [['c', 'b', 'v', 'n'], ['c', 'b', 'v', 'n']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['c', 'b', 'v', 'n']}
+INFO In questionnaires function
+INFO "POST /welcome HTTP/1.1" 200 9828
+INFO In questionnaires function
+INFO In instructions function
+INFO "POST /questionnaires HTTP/1.1" 200 659
+INFO "GET /onepageexamplegentask HTTP/1.1" 200 6199
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+ERROR Something went wrong in the welcome function
+ERROR Internal Server Error: /welcome
+Traceback (most recent call last):
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/wpettine/opt/anaconda3/envs/py37aa/lib/python3.7/site-packages/django/core/handlers/base.py", line 311, in check_response
+    "instead." % name
+ValueError: The view alienartifacts.views.welcome didn't return an HttpResponse object. It returned None instead.
+ERROR "POST /welcome HTTP/1.1" 500 68394
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['magenta'], 'shape': ['circle'], 'texture': ['dots'], 'size': ['large', 'small']}, 'reward_probabilities': {'x': 1.0, 'z': 0.0, 'c': 0.0, 'v': 0.0}}, 'rule_2': {'attributes': {'color': ['orange'], 'shape': ['square'], 'texture': ['dots'], 'size': ['large', 'small']}, 'reward_probabilities': {'x': 0.0, 'z': 1.0, 'c': 0.0, 'v': 0.0}}, 'rule_3': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['circle'], 'texture': ['diagonal'], 'size': ['large']}, 'reward_probabilities': {'x': 0.0, 'z': 0.0, 'c': 1.0, 'v': 0.0}}, 'rule_4': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['square'], 'texture': ['diagonal'], 'size': ['large']}, 'reward_probabilities': {'x': 0.0, 'z': 0.0, 'c': 0.0, 'v': 1.0}}}
+INFO valid_keys = [['x', 'z'], ['c', 'v'], ['x', 'z', 'c', 'v']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['x', 'z', 'c', 'v']}
+INFO In instructions function
+INFO "POST /welcome HTTP/1.1" 200 658
+INFO "GET /onepagecontextgentask HTTP/1.1" 200 2824
+INFO "GET /static/js/onepagecontextgentask.js HTTP/1.1" 200 5399
+INFO "GET /media/images/square_orange_dots_small_4h6dPcM.png HTTP/1.1" 200 3147
+INFO "GET /media/images/circle_magenta_dots_small_0eA9mqm.png HTTP/1.1" 200 4746
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['orange', 'magenta'], 'shape': ['circle'], 'texture': ['dots'], 'size': ['large', 'small']}, 'reward_probabilities': {'z': 1.0, 'v': 0.0, 'x': 0.0, 'c': 0.0}}, 'rule_2': {'attributes': {'color': ['magenta', 'orange'], 'shape': ['square'], 'texture': ['dots'], 'size': ['large']}, 'reward_probabilities': {'z': 0.0, 'v': 1.0, 'x': 0.0, 'c': 0.0}}, 'rule_3': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['circle'], 'texture': ['diagonal'], 'size': ['large']}, 'reward_probabilities': {'z': 0.0, 'v': 0.0, 'x': 1.0, 'c': 0.0}}, 'rule_4': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['square'], 'texture': ['diagonal'], 'size': ['small', 'large']}, 'reward_probabilities': {'z': 0.0, 'v': 0.0, 'x': 0.0, 'c': 1.0}}}
+INFO valid_keys = [['z', 'v'], ['x', 'c'], ['z', 'v', 'x', 'c']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['z', 'v', 'x', 'c']}
+INFO In instructions function
+INFO "POST /welcome HTTP/1.1" 200 658
+INFO "GET /onepagecontextgentask HTTP/1.1" 200 2824
+INFO "GET /onepagecontextgenupdate?responses=%5B%22z%22%2C%22v%22%2C%22v%22%2C%22v%22%2C%22z%22%2C%22v%22%2C%22z%22%2C%22z%22%2C%22v%22%2C%22z%22%5D&start_times=%5B1658177155549%2C1658177157056%2C1658177158440%2C1658177159691%2C1658177160991%2C1658177162281%2C1658177164304%2C1658177168250%2C1658177169980%2C1658177172024%5D&end_times=%5B1658177156051%2C1658177157438%2C1658177158687%2C1658177159986%2C1658177161277%2C1658177163302%2C1658177167247%2C1658177168975%2C1658177171020%2C1658177172547%5D HTTP/1.1" 200 272
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['orange', 'magenta'], 'shape': ['circle'], 'texture': ['dots'], 'size': ['large', 'small']}, 'reward_probabilities': {'z': 1.0, 'c': 0.0, 'v': 0.0, 'x': 0.0}}, 'rule_2': {'attributes': {'color': ['magenta', 'orange'], 'shape': ['square'], 'texture': ['dots'], 'size': ['large']}, 'reward_probabilities': {'z': 0.0, 'c': 1.0, 'v': 0.0, 'x': 0.0}}, 'rule_3': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['circle'], 'texture': ['diagonal'], 'size': ['large']}, 'reward_probabilities': {'z': 0.0, 'c': 0.0, 'v': 1.0, 'x': 0.0}}, 'rule_4': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['square'], 'texture': ['diagonal'], 'size': ['small', 'large']}, 'reward_probabilities': {'z': 0.0, 'c': 0.0, 'v': 0.0, 'x': 1.0}}}
+INFO valid_keys = [['z', 'c'], ['v', 'x'], ['z', 'c', 'v', 'x']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['z', 'c', 'v', 'x']}
+INFO In instructions function
+INFO "POST /welcome HTTP/1.1" 200 662
+INFO "GET /onepagecontextgentask HTTP/1.1" 200 2836
+WARNING "GET /static/js/onepagecontextgentask.js HTTP/1.1" 404 1808
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['orange', 'magenta'], 'shape': ['circle'], 'texture': ['dots'], 'size': ['large', 'small']}, 'reward_probabilities': {'v': 1.0, 'x': 0.0, 'c': 0.0, 'z': 0.0}}, 'rule_2': {'attributes': {'color': ['magenta', 'orange'], 'shape': ['square'], 'texture': ['dots'], 'size': ['large']}, 'reward_probabilities': {'v': 0.0, 'x': 1.0, 'c': 0.0, 'z': 0.0}}, 'rule_3': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['circle'], 'texture': ['diagonal'], 'size': ['large']}, 'reward_probabilities': {'v': 0.0, 'x': 0.0, 'c': 1.0, 'z': 0.0}}, 'rule_4': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['square'], 'texture': ['diagonal'], 'size': ['small', 'large']}, 'reward_probabilities': {'v': 0.0, 'x': 0.0, 'c': 0.0, 'z': 1.0}}}
+INFO valid_keys = [['v', 'x'], ['c', 'z'], ['v', 'x', 'c', 'z']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['v', 'x', 'c', 'z']}
+INFO In instructions function
+INFO "POST /welcome HTTP/1.1" 200 662
+INFO "GET /onepagecontextgentask HTTP/1.1" 200 2836
+WARNING "GET /static/js/onepagecontextgentask.js HTTP/1.1" 404 1808
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['orange'], 'shape': ['circle', 'hexagon', 'square', 'circle', 'x'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'b': 1.0, 'v': 0.0, 'c': 0.0, 'n': 0.0}}, 'rule_2': {'attributes': {'color': ['blue', 'magenta', 'purple', 'yellow'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'b': 0.0, 'v': 1.0, 'c': 0.0, 'n': 0.0}}, 'rule_3': {'attributes': {'color': ['orange'], 'shape': ['star'], 'texture': ['capsules', 'checker', 'diagonal', 'dots', 'solid'], 'size': 'large'}, 'reward_probabilities': {'b': 1.0, 'v': 1.0, 'c': 0.0, 'n': 0.0}}, 'default': {'attributes': {'color': 'default', 'shape': 'default', 'texture': 'default', 'size': 'default'}, 'reward_probabilities': {'b': 0.0, 'v': 0.0, 'c': 1.0, 'n': 0.0}}}
+INFO valid_keys = [['b', 'v', 'c', 'n'], ['b', 'v', 'c', 'n']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['b', 'v', 'c', 'n']}
+INFO In instructions function
+INFO "POST /welcome HTTP/1.1" 200 662
+INFO "GET /onepageexamplegentask HTTP/1.1" 200 6202
+INFO "GET /onepageexamplegenupdate?responses=%5B%22c%22%2C%22v%22%2C%22n%22%2C%22n%22%2C%22n%22%2C%22n%22%2C%22n%22%2C%22n%22%2C%22c%22%2C%22c%22%5D&start_times=%5B1658177700428%2C1658177702788%2C1658177707160%2C1658177710162%2C1658177711547%2C1658177712935%2C1658177714264%2C1658177715769%2C1658177717281%2C1658177723765%5D&end_times=%5B1658177701781%2C1658177706158%2C1658177709159%2C1658177710541%2C1658177711930%2C1658177713260%2C1658177714768%2C1658177716278%2C1658177722761%2C1658177724221%5D HTTP/1.1" 200 504
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['magenta'], 'shape': ['circle'], 'texture': ['dots'], 'size': ['large', 'small']}, 'reward_probabilities': {'v': 1.0, 'c': 0.0, 'z': 0.0, 'x': 0.0}}, 'rule_2': {'attributes': {'color': ['orange'], 'shape': ['square'], 'texture': ['dots'], 'size': ['large', 'small']}, 'reward_probabilities': {'v': 0.0, 'c': 1.0, 'z': 0.0, 'x': 0.0}}, 'rule_3': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['circle'], 'texture': ['diagonal'], 'size': ['large']}, 'reward_probabilities': {'v': 0.0, 'c': 0.0, 'z': 1.0, 'x': 0.0}}, 'rule_4': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['square'], 'texture': ['diagonal'], 'size': ['large']}, 'reward_probabilities': {'v': 0.0, 'c': 0.0, 'z': 0.0, 'x': 1.0}}}
+INFO valid_keys = [['v', 'c'], ['z', 'x'], ['v', 'c', 'z', 'x']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['v', 'c', 'z', 'x']}
+INFO In instructions function
+INFO "POST /welcome HTTP/1.1" 200 662
+INFO "GET /onepagecontextgentask HTTP/1.1" 200 2836
+WARNING "GET /static/js/onepagecontextgentask.js HTTP/1.1" 404 1808
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['magenta'], 'shape': ['circle'], 'texture': ['dots'], 'size': ['large', 'small']}, 'reward_probabilities': {'z': 1.0, 'c': 0.0, 'x': 0.0, 'v': 0.0}}, 'rule_2': {'attributes': {'color': ['orange'], 'shape': ['square'], 'texture': ['dots'], 'size': ['large', 'small']}, 'reward_probabilities': {'z': 0.0, 'c': 1.0, 'x': 0.0, 'v': 0.0}}, 'rule_3': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['circle'], 'texture': ['diagonal'], 'size': ['large']}, 'reward_probabilities': {'z': 0.0, 'c': 0.0, 'x': 1.0, 'v': 0.0}}, 'rule_4': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['square'], 'texture': ['diagonal'], 'size': ['large']}, 'reward_probabilities': {'z': 0.0, 'c': 0.0, 'x': 0.0, 'v': 1.0}}}
+INFO valid_keys = [['z', 'c'], ['x', 'v'], ['z', 'c', 'x', 'v']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['z', 'c', 'x', 'v']}
+INFO In instructions function
+INFO "POST /welcome HTTP/1.1" 200 662
+INFO Watching for file changes with StatReloader
+INFO "GET /onepagecontextgentask HTTP/1.1" 200 2836
+INFO "GET /static/js/onepagecontextgentask.js HTTP/1.1" 200 5399
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['magenta'], 'shape': ['circle'], 'texture': ['dots'], 'size': ['large', 'small']}, 'reward_probabilities': {'x': 1.0, 'v': 0.0, 'z': 0.0, 'c': 0.0}}, 'rule_2': {'attributes': {'color': ['orange'], 'shape': ['square'], 'texture': ['dots'], 'size': ['large', 'small']}, 'reward_probabilities': {'x': 0.0, 'v': 1.0, 'z': 0.0, 'c': 0.0}}, 'rule_3': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['circle'], 'texture': ['diagonal'], 'size': ['large']}, 'reward_probabilities': {'x': 0.0, 'v': 0.0, 'z': 1.0, 'c': 0.0}}, 'rule_4': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['square'], 'texture': ['diagonal'], 'size': ['large']}, 'reward_probabilities': {'x': 0.0, 'v': 0.0, 'z': 0.0, 'c': 1.0}}}
+INFO valid_keys = [['x', 'v'], ['z', 'c'], ['x', 'v', 'z', 'c']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['x', 'v', 'z', 'c']}
+INFO In instructions function
+INFO "POST /welcome HTTP/1.1" 200 662
+INFO "GET /onepagecontextgentask HTTP/1.1" 200 2836
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO In welcome function
+INFO reward_rules = {'rule_1': {'attributes': {'color': ['magenta'], 'shape': ['circle'], 'texture': ['dots'], 'size': ['large', 'small']}, 'reward_probabilities': {'x': 1.0, 'c': 0.0, 'v': 0.0, 'z': 0.0}}, 'rule_2': {'attributes': {'color': ['orange'], 'shape': ['square'], 'texture': ['dots'], 'size': ['large', 'small']}, 'reward_probabilities': {'x': 0.0, 'c': 1.0, 'v': 0.0, 'z': 0.0}}, 'rule_3': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['circle'], 'texture': ['diagonal'], 'size': ['large']}, 'reward_probabilities': {'x': 0.0, 'c': 0.0, 'v': 1.0, 'z': 0.0}}, 'rule_4': {'attributes': {'color': ['magenta', 'blue'], 'shape': ['square'], 'texture': ['diagonal'], 'size': ['large']}, 'reward_probabilities': {'x': 0.0, 'c': 0.0, 'v': 0.0, 'z': 1.0}}}
+INFO valid_keys = [['x', 'c'], ['v', 'z'], ['x', 'c', 'v', 'z']]
+INFO conversion = {'category': ['A', 'B', 'C', 'D'], 'key': ['x', 'c', 'v', 'z']}
+INFO In questionnaires function
+INFO "POST /welcome HTTP/1.1" 200 9803
+INFO /Users/wpettine/Dropbox/_Murray/Project/state_creation_RL/Paper/code/repos/alienArtifactsLearningTask/alienartifacts/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 5360
+INFO /Users/wpettine/Dropbox/_Murray/Project/state_creation_RL/Paper/code/repos/alienArtifactsLearningTask/alienartifacts/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO In welcome function
+INFO "GET /welcome HTTP/1.1" 200 2576
+INFO /Users/wpettine/Dropbox/_Murray/Project/state_creation_RL/Paper/code/repos/alienArtifactsLearningTask/alienartifacts/global_variables.py changed, reloading.
+INFO Watching for file changes with StatReloader
