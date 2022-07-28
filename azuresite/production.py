@@ -62,7 +62,7 @@ MEDIA_URL = f'https://{AZURE_CUSTOM_DOMAIN}/{MEDIA_LOCATION}/'
 
 # APPLICATION_INSIGHTS = {
 #     # Your Application Insights instrumentation key
-#     'ikey': os.environ.get('INSIGHTS_KEY', "4hkj5kfcc6npsa8i2pb6uyqkpxgdy3tjfwscnbrr"),
+#     'ikey': os.environ.get('INSIGHTS_KEY', ""),
 #
 #     # (optional) By default, request names are logged as the request method
 #     # and relative path of the URL.  To log the fully-qualified view names
@@ -83,7 +83,7 @@ if not DEBUG:
             "azure": {
                 "level": "DEBUG",
                 "class": "opencensus.ext.azure.log_exporter.AzureLogHandler",
-                "instrumentation_key": "ec561b4c-4e50-4796-a936-256a16e0e77f",
+                "instrumentation_key": "",
             },
             "console": {
                 "level": "DEBUG",
