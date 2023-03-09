@@ -3,9 +3,9 @@
 By Warren Woodrich Pettine, July 2022
 
 This code runs the tasks used in "Pettine, W. W., Raman, D. V., Redish, A. D., Murray, J. D.
-“Human latent-state generalization through prototype learning with discriminative attention.” December 2021. PsyArXiv
+“Human generalization of internal representations through prototype learning with goal-directed attention,” March 2023, Nature Human Behavior.
 
-https://psyarxiv.com/ku4fr
+https://www.nature.com/articles/s41562-023-01543-7
 
 When collecting data for that paper, the task webapp and associated database were hosted on Microsoft Azure. If you prefer to host on another service, the structure of several components will likely need to be modified. 
 
@@ -23,6 +23,9 @@ The sample is a simple Python Django application that connects to a PostgreSQL d
 
 The database connection information is specified via environment variables `DBHOST`, `DBPASS`, `DBUSER`, and `DBNAME`. This app always uses the default PostgreSQL port.
 The `DBHOST` environment variable is expected to contain *only* the server name, not the full URL, which is constructed at run time (see azuresite/production.py). Similarly, `DBUSER` is expected to contain only the user name, not username@servername as before, because using the simpler `DBHOST` the code can also construct the correct login form at run time (again in azuresite/production.py), avoiding failures that arise when `DBUSER` lacks the @servername portion.  
+
+The storage container keys are specified in backend/custom_azure.py. 
+
 
 # Contributing
 

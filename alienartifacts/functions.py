@@ -198,7 +198,7 @@ def createPlanetIntros(valid_keys,key_actions,task='context-generalization'):
     return planet_intros
 
 def buildTutorialStimulusDB(reward_rules,
-        file_dir='/Users/wpettine/Dropbox/_Murray/Code/state_inference_RL/online_task/stimuli/individual_png/'):
+        file_dir='stimuli/individual_png/'):
     #Loop through each image file
     f_names = glob(file_dir + '*' + '.png')
     for f in range(len(f_names)):
@@ -234,7 +234,7 @@ def buildTutorialStimulusDB(reward_rules,
 
 
 def buildRewardStimulusDB(
-        file_dir='/Users/wpettine/Dropbox/_Murray/Code/state_inference_RL/online_task/stimuli/individual_png/'):
+        file_dir='stimuli/individual_png/'):
     #Loop through each image file
     f_names = glob(file_dir + '*' + '.png')
     for f in range(len(f_names)):
@@ -254,7 +254,7 @@ def buildRewardStimulusDB(
 
 
 def buildStimulusDB(reward_rules=None,
-        file_dir='/Users/wpettine/Dropbox/_Murray/Code/state_inference_RL/online_task/stimuli/individual_png/'):
+        file_dir='stimuli/individual_png/'):
     #Loop through each image file
     f_names = glob(file_dir + '*' + '.png')
     for f in range(len(f_names)):
